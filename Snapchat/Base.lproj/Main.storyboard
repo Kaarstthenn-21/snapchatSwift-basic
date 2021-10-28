@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Inicio Sesion View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="inicioSesionViewController" customModule="Snapchat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login" translatesAutoresizingMaskIntoConstraints="NO" id="52k-bh-hCe">
+                                <rect key="frame" x="107" y="74" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6q4-AU-bQk"/>
+                                    <constraint firstAttribute="width" constant="200" id="fho-Se-r2Y"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xZ-3B-wRe">
+                                <rect key="frame" x="176" y="299" width="62.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jTr-4V-Ln8">
+                                <rect key="frame" x="47" y="353" width="320" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="pY8-YZ-7L3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pye-ma-mnN">
+                                <rect key="frame" x="162.5" y="395" width="89" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tUp-vi-Nba">
+                                <rect key="frame" x="47" y="451" width="320" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="9tX-We-ELP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFE-cH-quh">
+                                <rect key="frame" x="172" y="575" width="70" height="40"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Ien-cf-7QT"/>
+                                    <constraint firstAttribute="height" constant="40" id="TmF-be-H2M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="IniciarSesionTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqy-OS-Y1P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26a-6e-BmE">
+                                <rect key="frame" x="127" y="685" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="o1T-r0-Sce"/>
+                                    <constraint firstAttribute="width" constant="160" id="rGM-Zx-fq4"/>
+                                </constraints>
+                                <state key="normal" title="  Google" image="icons8-logo-de-google-48">
+                                    <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="IniciarSesionGoogleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bgf-nx-HZf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="52k-bh-hCe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="4gN-ui-aM8"/>
+                            <constraint firstItem="Pye-ma-mnN" firstAttribute="top" secondItem="jTr-4V-Ln8" secondAttribute="bottom" constant="8" id="CAq-T8-BMK"/>
+                            <constraint firstItem="7xZ-3B-wRe" firstAttribute="top" secondItem="52k-bh-hCe" secondAttribute="bottom" constant="25" id="Hb5-ed-SRc"/>
+                            <constraint firstItem="26a-6e-BmE" firstAttribute="top" secondItem="RFE-cH-quh" secondAttribute="bottom" constant="70" id="KON-HU-eDf"/>
+                            <constraint firstItem="7xZ-3B-wRe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LMl-JN-Hzv"/>
+                            <constraint firstItem="RFE-cH-quh" firstAttribute="top" secondItem="tUp-vi-Nba" secondAttribute="bottom" constant="90" id="MTp-pY-C2n"/>
+                            <constraint firstItem="RFE-cH-quh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ugg-SV-5Zt"/>
+                            <constraint firstItem="7xZ-3B-wRe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bfF-2c-5jK"/>
+                            <constraint firstItem="26a-6e-BmE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="euh-0A-mgT"/>
+                            <constraint firstItem="tUp-vi-Nba" firstAttribute="top" secondItem="Pye-ma-mnN" secondAttribute="bottom" constant="35" id="lJh-1U-9hJ"/>
+                            <constraint firstItem="Pye-ma-mnN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mgM-uc-gdU"/>
+                            <constraint firstItem="tUp-vi-Nba" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nbY-yz-exF"/>
+                            <constraint firstItem="Pye-ma-mnN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qbq-D0-jcc"/>
+                            <constraint firstItem="52k-bh-hCe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vLU-fB-ami"/>
+                            <constraint firstItem="jTr-4V-Ln8" firstAttribute="top" secondItem="7xZ-3B-wRe" secondAttribute="bottom" constant="33" id="vOW-oQ-JEJ"/>
+                            <constraint firstItem="jTr-4V-Ln8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yhc-wv-8sX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="jTr-4V-Ln8" id="h96-c9-9Xd"/>
+                        <outlet property="passwordTextField" destination="tUp-vi-Nba" id="Imc-E3-To9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icons8-logo-de-google-48" width="48" height="48"/>
+        <image name="login" width="640" height="480"/>
+    </resources>
+</document>
