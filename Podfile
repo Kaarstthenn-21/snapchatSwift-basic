@@ -9,5 +9,9 @@ target 'Snapchat' do
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
   pod 'Firebase/Core'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FBSDKLoginKit'
+    
 
 end

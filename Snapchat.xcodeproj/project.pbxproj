@@ -15,6 +15,8 @@
 		A851C5D32729C69800A391D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A851C5D22729C69800A391D3 /* Assets.xcassets */; };
 		A851C5D62729C69800A391D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A851C5D42729C69800A391D3 /* LaunchScreen.storyboard */; };
 		A851C5DE2729C80400A391D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A851C5DD2729C80400A391D3 /* GoogleService-Info.plist */; };
+		A851C604272B299100A391D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A851C603272B299100A391D3 /* HomeViewController.swift */; };
+		A851C606272B2F7C00A391D3 /* SnapSendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A851C605272B2F7C00A391D3 /* SnapSendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		A851C5D52729C69800A391D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A851C5D72729C69800A391D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A851C5DD2729C80400A391D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A851C603272B299100A391D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A851C605272B2F7C00A391D3 /* SnapSendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSendViewController.swift; sourceTree = "<group>"; };
 		E79D815AC2EB95B6A77AAD80 /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +77,8 @@
 				A851C5D42729C69800A391D3 /* LaunchScreen.storyboard */,
 				A851C5D72729C69800A391D3 /* Info.plist */,
 				A851C5DD2729C80400A391D3 /* GoogleService-Info.plist */,
+				A851C603272B299100A391D3 /* HomeViewController.swift */,
+				A851C605272B2F7C00A391D3 /* SnapSendViewController.swift */,
 			);
 			path = Snapchat;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 				A851C5CE2729C69700A391D3 /* inicioSesionViewController.swift in Sources */,
 				A851C5CA2729C69700A391D3 /* AppDelegate.swift in Sources */,
 				A851C5CC2729C69700A391D3 /* SceneDelegate.swift in Sources */,
+				A851C604272B299100A391D3 /* HomeViewController.swift in Sources */,
+				A851C606272B2F7C00A391D3 /* SnapSendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL6H46W8C2;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZL6H46W8C2;
 				INFOPLIST_FILE = Snapchat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
